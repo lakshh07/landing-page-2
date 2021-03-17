@@ -1,0 +1,226 @@
+@media screen and (max-width: 767px) {
+  #navbar {
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+  }
+  .logo span a {
+    font-size: 1.2em;
+    padding: -7px;
+  }
+  .nav-ul li a {
+    font-size: 1.3em;
+    color: white;
+    padding: 15px;
+    opacity: 1;
+  }
+  .no-transition {
+    transition: none !important;
+  }
+  .nav-ul-div {
+    padding-bottom: 5px;
+    position: fixed;
+    background-color: #222831de;
+    height: auto;
+    width: 100%;
+    left: 0;
+    top: 70px;
+    z-index: 999;
+    transform: translateY(-150%);
+    filter: drop-shadow(0px 5px 3px rgba(255, 255, 255, 0.822));
+    transition: transform cubic-bezier(0.77, 0, 0.175, 1) 1.3s;
+  }
+  .nav-ul-div.show {
+    transform: translateY(0%);
+    transition: transform cubic-bezier(0.77, 0, 0.175, 1) 1.3s;
+  }
+  .nav-ul {
+    margin-top: 4.5%;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .hamburger {
+    margin-top: -1.5%;
+    top: 0;
+    display: block;
+    margin-right: 8%;
+  }
+  /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  .greetings {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 97vh;
+  }
+  .greeting-msg {
+    padding-bottom: 10px;
+    padding: 10px;
+    position: relative;
+    margin-top: 30px;
+    top: 11%;
+    overflow-y: hidden;
+    height: auto;
+    margin-bottom: -35%;
+    left: -10px;
+  }
+  .greeting-msg p {
+    position: relative;
+    margin-top: -5px;
+    font-size: 15px;
+    line-height: normal;
+    width: 100%;
+  }
+  .greeting-msg h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .greeting-btn {
+    position: relative;
+    left: 5%;
+    justify-content: center;
+    margin-top: -10px;
+  }
+  .greeting-social i ,.contact-social i{
+    font-size: 1rem;
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+  }
+  .main-button {
+    font-size: 10px;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  .greeting-social {
+    margin-top: -10px;
+  }
+  .greeting-img {
+    position: relative;
+    left:-10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+  }
+  .greeting-img lottie-player {
+    padding-top: 10px;
+    height: 250px;
+    overflow-y: hidden;
+    width: 250px;
+  }
+  .container-wave{
+    margin-top: -1px;
+  }
+  /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  .section2 {
+    
+    width: 100%;
+    height: auto;
+    margin-bottom: -1px;
+    margin-top: 10%;
+    padding-bottom: 20px;
+    flex-direction: column-reverse;
+  }
+  .section2-img {
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    display:flex  ;
+    position: relative;
+    left:-6px;
+    padding-bottom: 20px;
+  }
+  .section2-img lottie-player {
+
+    height: 250px;
+    overflow-y: hidden;
+    width: 250px;
+  }
+  .section2-msg {
+    font-size: 15px;
+    margin-top: 9%;
+    padding-right: 0px;
+    margin-left: 4.5%;
+  }
+  .section2-msg h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+  .para1 {
+    padding-left: 30px;
+    width: 85%;
+    position: relative;
+    text-align: center;
+  }
+  .section2-msg-social i {
+    width: 3.3rem;
+    margin: 0 5px 2px 0;
+  }
+  .para2 {
+    width: 90%;
+    margin: 5px 0 1px 30px;
+  }
+  .para3 {
+    width: 90%;
+    margin-left: 30px;
+  }
+  /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  .section3{
+    padding-bottom: 25%;
+    padding-top: 1px;
+    margin-bottom: -1px
+  }
+  .section3-msg{
+    position: relative;
+    top: 7%;
+    margin-top: 20px;
+  }
+  .section3-msg h1 {
+    font-size: 40px;
+  }
+  .skill-bars {
+    width: auto;
+    padding: 25px 25px 0 25px;
+    margin-right: 12%;
+  }
+  .skill-bars .bar .info span {
+    font-size: 15px;
+  }
+  /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  .section4{
+    margin-bottom: -1px;
+  }
+  .section4 h1{
+    font-size: 40px;
+  }
+  
+  /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+ .contact{
+  margin-right: -1px;
+   margin-bottom: -1px;
+ }
+  .contact h1{
+   font-size: 40px;
+ }
+ .contact p{
+   font-size: 15px;
+ }
+ .contact-social {
+   padding-top: 10px;
+ }
+ .contact p:last-child{
+   padding-bottom: -10%;
+   padding-top: 30px;
+   font-size: 10px;
+ }
+}
+@media screen and (max-width: 375px) {
+  .greeting-msg{
+    margin-top: 10px;
+  } 
+  .section2-msg{
+    margin-left: -2.5%;
+    margin-right: 1px;
+  }
+} 

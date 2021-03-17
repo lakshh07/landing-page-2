@@ -1,0 +1,62 @@
+.container-pre {
+  overflow-y: hidden;
+  position: relative;
+  background-color: #171c28;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+  padding:10px;
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Montserrat';
+}
+.preloader p{
+  position: relative;
+  font-size: 90px;
+}
+.percentage{
+  position: relative;
+  font-size: 3rem;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  color: transparent;
+  padding: auto;
+}
+.para {
+  margin-top: 10%;
+  font-size: 0.8rem;
+  position: relative;
+}
+.blink{
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  animation: blinks 0.2s ease-in-out infinite;
+}
+@keyframes blinks{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 767px){
+  .container-pre{
+    text-align: left;
+  }
+  .preloader p{
+    margin-top: 5%;
+    font-size: 20px;
+  }
+  .percentage{
+    font-size: 10px !important;
+  }
+  .para{
+    font-size: 8px;
+    margin-top: 20%;
+  }
+  .blink{
+    font-size: 20px;
+  }
+}
