@@ -99,25 +99,3 @@ function inViewport(){
 }
 
 
-function loader(_success) {
-  var obj = document.querySelector('.container-pre'),
-  inner = document.querySelector('.percentage'),
-  page = document.querySelector('.container-post');
-  // document.querySelector('.cursor').classList.toggle('cursor-active');
-  var w = 0,
-      t = setInterval(function() {
-          w = w + 1;
-          inner.textContent = w+'-100    ';
-          if (w === 101){
-              obj.classList.add('fadeOut');
-              page.classList.remove('fadeOut');
-              // document.querySelector('.cursor').classList.toggle('cursor-active');
-              clearInterval(t);
-              w = 0;
-              if (_success){
-                  return _success();
-              }
-          }
-      }, 50);
-}
-loader();
